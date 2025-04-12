@@ -1,0 +1,36 @@
+semantic error(5:16): left-operand of type "int" does not match right-operand of type "bool"
+semantic error(5:21): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(5:26): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(5:31): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(5:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(6:12): left-operand of type "bool" does not match right-operand of type "int"
+semantic error(6:17): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(6:22): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(6:27): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(6:32): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(6:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(7:22): left-operand of type "int" does not match right-operand of type "bool"
+semantic error(7:31): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(7:36): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(7:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(8:27): left-operand of type "int" does not match right-operand of type "bool"
+semantic error(8:35): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(8:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(9:33): left-operand of type "int" does not match right-operand of type "bool"
+semantic error(9:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(10:11): "+" operator requires int type but left operand has type bool
+semantic error(10:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(11:12): "-" operator requires int type but left operand has type bool
+semantic error(11:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(12:11): "/" operator requires int type but left operand has type bool
+semantic error(12:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(13:12): "*" operator requires int type but left operand has type bool
+semantic error(13:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(14:11): ">" operator requires int type but left operand has type bool
+semantic error(14:1): left-hand side value of type  "bool" does not match its expression of type "unknown"
+semantic error(15:11): "<" operator requires int type but left operand has type bool
+semantic error(15:1): left-hand side value of type  "bool" does not match its expression of type "unknown"
+semantic error(16:12): ">=" operator requires int type but left operand has type bool
+semantic error(16:1): left-hand side value of type  "bool" does not match its expression of type "unknown"
+semantic error(17:12): "<=" operator requires int type but left operand has type bool
+semantic error(17:1): left-hand side value of type  "bool" does not match its expression of type "unknown"

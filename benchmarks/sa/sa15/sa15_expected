@@ -1,0 +1,8 @@
+semantic error(5:5): Variable "e" is not defined. 
+semantic error(5:7): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(5:1): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(7:7): Variable "d" is not defined. 
+semantic error(7:9): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(7:14): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(7:19): left-operand of type "unknown" does not match right-operand of type "int"
+semantic error(7:1): left-hand side value of type  "int" does not match its expression of type "unknown"

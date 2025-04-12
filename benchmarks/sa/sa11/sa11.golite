@@ -1,0 +1,18 @@
+func main() {
+	var x int; 
+	var y int; 
+	var z bool; 
+	x = ((((4 + 5) * z) + 3) - 3) / 9;
+	x =  ((((z + 5) * 4) + 3) - 3) / 9;
+	x =  ((((y + 5) * 4) + false) - 3) / 9;
+	x =  ((((y + 5) * 4) + y) - true) / 9;
+	x =  ((((y + 5) * 4) + y) - 23) / true;
+	x =  true + true; 
+	x =  false - true; 
+	x =  true / true; 
+	x =  false * false; 
+	z =  true > false; 
+	z =  true < false; 
+	z =  false >= true; 
+	z =  false <= false; 
+}

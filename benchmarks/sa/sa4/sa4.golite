@@ -1,0 +1,9 @@
+type MyStruct struct {
+    a int; 
+    b int; 
+    a int; 
+};
+
+func main() {
+	
+}

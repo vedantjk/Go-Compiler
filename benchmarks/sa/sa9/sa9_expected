@@ -1,0 +1,10 @@
+semantic error(15:4): field "t" not defined in "C" definition.
+semantic error(15:4): left-hand side value of type  "unknown" does not match its expression of type "int"
+semantic error(16:4): field "z" type's not a defined struct type.
+semantic error(16:4): left-hand side value of type  "unknown" does not match its expression of type "bool"
+semantic error(17:4): field "d" not defined in "C" definition.
+semantic error(17:4): left-hand side value of type  "unknown" does not match its expression of type "int"
+semantic error(18:8): Did not find field: t inside C struct
+semantic error(18:4): left-hand side value of type  "int" does not match its expression of type "unknown"
+semantic error(19:8): Did not find field: d inside C struct
+semantic error(19:4): left-hand side value of type  "int" does not match its expression of type "unknown"

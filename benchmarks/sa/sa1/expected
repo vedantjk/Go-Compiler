@@ -1,0 +1,2 @@
+semantic error(3:9): redeclaration of variable (a). Other declaration at (4,1)
+semantic error(3:23): redeclaration of variable (d). Other declaration at (5,1)

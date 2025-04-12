@@ -1,0 +1,35 @@
+type A struct {
+	b int; 
+}; 
+
+func foo() {
+	var myVar *A; 
+	if ( 1 > 2) {
+		return myVar; 	
+	} 
+	return; 
+}
+
+func bar(x int) int {
+	var myVar *A; 
+	if (x > 0) 
+	{
+		return true; 
+	}
+	else 
+	{
+		if (x < 0) 
+		{
+			return myVar; 
+		}
+		else 
+		{
+			return; 
+		}
+	} 
+	return x; 
+}
+
+func main() {
+	return 4; 
+}

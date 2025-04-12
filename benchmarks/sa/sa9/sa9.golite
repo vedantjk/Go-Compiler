@@ -1,0 +1,20 @@
+type C struct {
+	z bool; 
+}; 
+type B struct {
+	y int; 
+	c *C; 
+}; 
+type A struct {
+	x int; 
+	b *B; 
+}; 
+func main() {
+	var a *A; 
+	var i int; 
+    a.b.c.t = 3;
+    a.b.c.z.d = true;
+    a.b.c.d.e.f = 1;   
+    i = a.b.c.t; 
+    i = a.b.c.d.e.f; 
+}

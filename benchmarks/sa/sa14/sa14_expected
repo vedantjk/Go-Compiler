@@ -1,0 +1,5 @@
+semantic error(8:2): return statement returns value of type "A" but function does not return a type
+semantic error(17:2): return statement returns value of type "bool" but function returns type:"int"
+semantic error(23:3): return statement returns value of type "A" but function returns type:"int"
+semantic error(27:3): return statement requires a return value of type "int"
+semantic error(34:1): return statement returns value of type "int" but function does not return a type

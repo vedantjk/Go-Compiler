@@ -1,0 +1,13 @@
+var d,e int;  
+
+func main() {
+	var a,b,c int; 
+	a = 0; 
+	b = 1; 
+	c = 2; 
+	d = a + b + c; 
+	e = d; 
+	printf("a=%d"); 
+	printf("a=%d,b=%d\n",a); 
+	printf("%d%f%d%d\n",a,b); 
+}

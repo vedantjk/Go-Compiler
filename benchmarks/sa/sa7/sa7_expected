@@ -1,0 +1,1 @@
+semantic error(18:1): left-hand side value of type  "bool" does not match its expression of type "int"

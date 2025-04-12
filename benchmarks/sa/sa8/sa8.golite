@@ -1,0 +1,22 @@
+type Foo struct {
+	a int; 
+}; 
+type C struct {
+	z bool; 
+}; 
+type B struct {
+	y int; 
+	c *C; 
+}; 
+type A struct {
+	x int; 
+	b *B; 
+}; 
+func main() {
+	var x *Foo; 
+	var a *A; 
+	x = new Bar; 
+    a.b.c = new T; 
+    delete a.b.c.z; 
+    delete a.b.c; 
+}

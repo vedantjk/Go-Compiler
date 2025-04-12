@@ -1,0 +1,39 @@
+type MyStruct struct {
+	a int; 
+	b bool; 
+}; 
+func main() {
+	var myStruct *MyStruct; 
+	myStruct = new MyStruct; 
+	if (4 + 5) {
+		printf("Invalid program"); 
+	}
+	if (myStruct.a) {
+		printf("Invalid program"); 
+	}
+	if (myStruct) {
+		printf("Invalid program"); 
+	}
+	if ( 4 > 5 &&  4 + 5) {
+		printf("Invalid program");
+	} 
+	if ( 4 < 6 || 6 > 7 && 1 + 2) {
+		printf("Invalid program");
+	} 
+
+	for (4 + 5) {
+		printf("Invalid program"); 
+	}
+	for (myStruct.a) {
+		printf("Invalid program"); 
+	}
+	for (myStruct) {
+		printf("Invalid program"); 
+	}
+	for ( 4 > 5 &&  4 + 5) {
+		printf("Invalid program");
+	} 
+	for ( 4 < 6 || 6 > 7 && 1 + 2) {
+		printf("Invalid program");
+	} 
+}

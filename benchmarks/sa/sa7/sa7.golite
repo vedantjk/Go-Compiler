@@ -1,0 +1,26 @@
+type C struct {
+	z bool; 
+}; 
+type B struct {
+	y int; 
+	c *C; 
+}; 
+type A struct {
+	x int; 
+	b *B; 
+}; 
+func main() {
+	var a *A; 
+	a = nil; 
+	a = new A; 
+	a.b = new B; 
+	a.b.c = new C; 
+	a.b.c.z = 4; 
+	if (a.b == nil) {
+		printf("a.b is nil"); 
+	}
+	if (nil == a) {
+		printf("a is nil"); 
+	}
+
+}

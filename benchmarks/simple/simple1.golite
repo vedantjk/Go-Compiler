@@ -1,0 +1,18 @@
+func foo(a int, b int) int{
+    var c, d int;
+    scan c;
+    scan d;
+    if(c > d){
+        d = c + 1;
+    } else{
+        c = d + 1;
+    }
+    return a + c + d;
+}
+func main () {
+   var a, b, c int;
+   scan a;
+   scan b;
+   c = foo(a, b);
+   printf("%d\n", c);
+}

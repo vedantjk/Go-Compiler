@@ -1,0 +1,2 @@
+semantic error(4:0): function with name "compute" already defined. Previous declaration at 1:0
+semantic error(12:0): function with name "add" already defined. Previous declaration at 8:0

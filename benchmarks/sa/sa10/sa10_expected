@@ -1,0 +1,3 @@
+semantic error(10:1): found 1 placeholders but got only 0 arguments
+semantic error(11:1): found 2 placeholders but got only 1 arguments
+semantic error(12:1): found 3 placeholders but got only 2 arguments

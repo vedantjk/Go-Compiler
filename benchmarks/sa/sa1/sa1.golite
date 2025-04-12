@@ -1,0 +1,10 @@
+var a int;
+var d int; 
+func foo(a int, b int, d int) {
+	var a int;
+	var d int; 
+	printf("%d\n", a);
+}
+func main() {
+	foo(4,3,4); 
+}

@@ -1,0 +1,8 @@
+var a,b,c int; 
+
+func main() {
+	var a  int; 
+	a = e + b; 
+	c = a + b; 
+	a = ((d + a) - 3) * 2; 
+}

@@ -1,0 +1,5 @@
+semantic error(18:5): new expects expression of type struct but found undefined "Bar" type.
+semantic error(18:1): left-hand side value of type  "Foo" does not match its expression of type "Bar"
+semantic error(19:12): new expects expression of type struct but found undefined "T" type.
+semantic error(19:4): left-hand side value of type  "C" does not match its expression of type "T"
+semantic error(20:4): delete statement requires expression to be a struct pointer but found "bool" type.

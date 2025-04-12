@@ -1,0 +1,16 @@
+semantic error(8:1): if conditional expression expects bool type but found int type
+semantic error(11:1): if conditional expression expects bool type but found int type
+semantic error(14:1): if conditional expression expects bool type but found MyStruct type
+semantic error(17:12): left-operand of type "bool" does not match right-operand of type "int"
+semantic error(17:1): if conditional expression expects bool type but found unknown type
+semantic error(20:21): left-operand of type "bool" does not match right-operand of type "int"
+semantic error(20:12): left-operand of type "bool" does not match right-operand of type "unknown"
+semantic error(20:1): if conditional expression expects bool type but found unknown type
+semantic error(24:1): condition expression must be a boolean. Found int
+semantic error(27:1): condition expression must be a boolean. Found int
+semantic error(30:1): condition expression must be a boolean. Found MyStruct
+semantic error(33:13): left-operand of type "bool" does not match right-operand of type "int"
+semantic error(33:1): condition expression must be a boolean. Found unknown
+semantic error(36:22): left-operand of type "bool" does not match right-operand of type "int"
+semantic error(36:13): left-operand of type "bool" does not match right-operand of type "unknown"
+semantic error(36:1): condition expression must be a boolean. Found unknown

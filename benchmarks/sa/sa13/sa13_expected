@@ -1,0 +1,2 @@
+semantic error(1:0): Not all possible control flow paths in "foo" return.
+semantic error(4:0): Not all possible control flow paths in "bar" return.
